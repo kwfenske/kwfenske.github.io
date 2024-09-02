@@ -220,6 +220,10 @@ and do not have trailing spaces or tabs (white space) at the end of lines. How
 clean are your source, text files, and XML documents? See also: Plain Text
 (above), Trim File (below).
 
+- [Create Dummy File](create-dummy-file-java.zip) (Java, ZIP, 159 KB):
+CreateDummyFile is a Java 1.4 console application to create a file with a given
+size, and to fill the file with a repeating pattern or pseudo-random data.
+
 - [Echo Args](echo-args-java.zip) (Java, ZIP, 148 KB): EchoArgs is a trivial
 Java 1.4 console application to print all command-line parameters on standard
 error, when debugging scripts or what MS-DOS calls "batch" files.
@@ -237,6 +241,7 @@ about Java Swing. See also: [Blue Red White](blue-red-white-java.zip).
 a Java 1.4 console application to find the biggest files in a list of file or
 folder names given on the command line. The code is a template for simple
 applications that process files, folders, and subfolders. See also:
+[Line Count](line-count-java.zip),
 [Same File Size](same-file-size-java.zip),
 [Show File Info](show-file-info-java.zip),
 [Show File Size](show-file-size-java.zip),
@@ -282,6 +287,7 @@ other than HTML anchor text and their file names.
 [Character Map](https://github.com/kwfenske/character-map-java),
 [Check Plain Trim](https://github.com/kwfenske/check-plain-trim-java),
 [Compare Folders](https://github.com/kwfenske/compare-folders-java),
+[Create Dummy File](https://github.com/kwfenske/create-dummy-file-java),
 [Delete Duplicate Files](https://github.com/kwfenske/delete-duplicate-files-java),
 [Dots and Boxes Game](https://github.com/kwfenske/dots-and-boxes-game-java),
 [Drive Speed](https://github.com/kwfenske/drive-speed-java),
@@ -303,6 +309,7 @@ other than HTML anchor text and their file names.
 [Icon Editor](https://github.com/kwfenske/icon-editor-java),
 [Largest Files](https://github.com/kwfenske/largest-files-java),
 [Life Game](https://github.com/kwfenske/life-game-java),
+[Line Count](https://github.com/kwfenske/line-count-java),
 [Maze Fog Game](https://github.com/kwfenske/maze-fog-game-java),
 [Plain Text](https://github.com/kwfenske/plain-text-java),
 [Random Password](https://github.com/kwfenske/random-password-java),
