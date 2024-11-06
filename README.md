@@ -247,7 +247,7 @@ applications that process files, folders, and subfolders. See also:
 [Show File Size](show-file-size-java.zip),
 [Show Folder Size](show-folder-size-java.zip).
 
-- [Random Password](random-password-java.zip) (Java, ZIP, 210 KB):
+- [Random Password](random-password-java.zip) (Java, ZIP, 211 KB):
 RandomPassword is a Java 1.4 application to generate random passwords given an
 alphabet (list of available characters), the length of each password (in
 characters), and the number of passwords required.
