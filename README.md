@@ -110,7 +110,7 @@ memory on your computer (RAM), and should be several times bigger, because your
 computer uses some of its memory as a "disk cache" to increase the apparent
 speed of drives.
 
-- [Erase Disk](erase-disk-java.zip) (Java, ZIP, 274 KB): EraseDisk is a Java
+- [Erase Disk](erase-disk-java.zip) (Java, ZIP, 273 KB): EraseDisk is a Java
 1.4 graphical (GUI) application to erase and test disk drives or flash drives.
 Large temporary files are created and filled with zeros, ones, or pseudo-random
 data. Previously deleted files are overwritten. Existing files are not
