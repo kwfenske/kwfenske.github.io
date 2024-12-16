@@ -148,7 +148,7 @@ of two different files having the same size and MD5 checksum is extremely
 small. (Slower and stronger SHA256 version
 is [here](find-duplicate-files-sha256-java.zip).)
 
-- [Font Rename](font-rename-java.zip) (Java, ZIP, 268 KB): FontRename is a Java
+- [Font Rename](font-rename-java.zip) (Java, ZIP, 282 KB): FontRename is a Java
 1.4 application to rename OpenType and TrueType font files with their internal
 "font full name" using only plain text characters (ASCII) plus an extension for
 the type (OTF, TTC, TTF), or using the full Unicode character set in languages
