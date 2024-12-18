@@ -79,7 +79,7 @@ first. All packages are
 in [ZIP format](https://en.wikipedia.org/wiki/ZIP_%28file_format%29) and
 include brief installation instructions.
 
-- [Character Map](character-map-java.zip) (Java, ZIP, 1163 KB): CharMap is a
+- [Character Map](character-map-java.zip) (Java, ZIP, 1177 KB): CharMap is a
 Java 5.0 graphical (GUI) application to display Unicode characters or glyphs in
 text fonts, and copy those characters to the system clipboard. Its major
 purpose is as a visual accessory for word processors such as Microsoft Word.
@@ -135,7 +135,7 @@ or to change their directory dates. The contents of the files are not changed.
 Folders and subfolders may be searched recursively. Changes may be applied to
 files only, both files and folders, or only the folders.
 
-- [Find Duplicate Files](find-duplicate-files-java.zip) (Java, ZIP, 206 KB):
+- [Find Duplicate Files](find-duplicate-files-java.zip) (Java, ZIP, 218 KB):
 FindDupFiles is a Java 1.4 application to find duplicate files by searching for
 files that have the same size and the same MD5 checksum. It won't find files
 that are merely similar, such as two consecutive photos of the same subject, or
