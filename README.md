@@ -175,7 +175,7 @@ the background show through. Please note that IconEdit is an old program and
 does not support alpha channels, compressed data (PNG images), or icons larger
 than 256 pixels.
 
-- [Maze Fog Game](maze-fog-game-java.zip) (Java, ZIP, 232 KB): MazeFog is an
+- [Maze Fog Game](maze-fog-game-java.zip) (Java, ZIP, 242 KB): MazeFog is an
 old Java 1.1 AWT (GUI) applet to play a maze game. Your view is limited by a
 "fog" that shows nearby positions and those you have already visited. Web page
 applets are obsolete and may run as stand-alone applications with the help of a
