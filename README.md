@@ -5,7 +5,7 @@ by: Keith Fenske
 <br>https://kwfenske.github.io/
 <br>February 2019
 
-Copyright &copy; 2011-2024 by Keith Fenske. Send e-mail
+Copyright &copy; 2011-2025 by Keith Fenske. Send e-mail
 to [this address](email-address.gif "github dot kwfenske at gmail dot com").
 Project page: https://github.com/kwfenske
 
@@ -35,7 +35,9 @@ Prompt, as are Linux and MacOS in a Terminal window.
 - [Socket and Wrench Sizes](socket-wrench-sizes.pdf) (PDF, 31 KB;
 or [ZIP](socket-wrench-sizes.zip)): Metric tools are normally for metric
 fasteners and SAE tools for SAE fasteners. Some metric sizes (millimeter, mm)
-are almost the same as SAE sizes (fractional, imperial, inch, standard).
+are almost the same as SAE sizes (fractional, imperial, inch, standard). You
+may also download the [program](metric-sae-sizes-java.zip) that generated the
+raw data for this chart.
 
 ### Icons
 
@@ -283,6 +285,7 @@ other than HTML anchor text and their file names.
 
 - GitHub (project folders):
 [Alphabet Web Icons](https://github.com/kwfenske/alphabet-web-icons),
+[Beta Releases](https://github.com/kwfenske/beta-releases),
 [Blue Red White](https://github.com/kwfenske/blue-red-white-java),
 [Character Map](https://github.com/kwfenske/character-map-java),
 [Check Plain Trim](https://github.com/kwfenske/check-plain-trim-java),
@@ -311,6 +314,7 @@ other than HTML anchor text and their file names.
 [Life Game](https://github.com/kwfenske/life-game-java),
 [Line Count](https://github.com/kwfenske/line-count-java),
 [Maze Fog Game](https://github.com/kwfenske/maze-fog-game-java),
+[Metric SAE Sizes](https://github.com/kwfenske/metric-sae-sizes-java) (program),
 [Plain Text](https://github.com/kwfenske/plain-text-java),
 [Random Password](https://github.com/kwfenske/random-password-java),
 [Redate Photo File](https://github.com/kwfenske/redate-photo-file-java),
@@ -320,14 +324,14 @@ other than HTML anchor text and their file names.
 [Show File Info](https://github.com/kwfenske/show-file-info-java),
 [Show File Size](https://github.com/kwfenske/show-file-size-java),
 [Show Folder Size](https://github.com/kwfenske/show-folder-size-java),
-[Socket and Wrench Sizes](https://github.com/kwfenske/socket-wrench-sizes),
+[Socket and Wrench Sizes](https://github.com/kwfenske/socket-wrench-sizes) (chart),
 [Sort FAT Folder](https://github.com/kwfenske/sort-fat-folder-java),
 [Tic-Tac-Toe Game](https://github.com/kwfenske/tic-tac-toe-game-java),
 [Trim File](https://github.com/kwfenske/trim-file-java).
 
 Most search engines scan known web pages about once a month, and new links
 found there will appear in search results after two or three months. This page
-was last revised on Monday, 16 September 2024. Frequently asked questions
-([FAQ](https://kwfenske.github.io/faq.html)). Copyright &copy; 2011-2024 by
+was last revised on Monday, 17 February 2025. Frequently asked questions
+([FAQ](https://kwfenske.github.io/faq.html)). Copyright &copy; 2011-2025 by
 Keith Fenske. All rights reserved. Anything you post on the internet will get
 stolen and used for something that you don't approve of.
