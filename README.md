@@ -36,8 +36,8 @@ Prompt, as are Linux and MacOS in a Terminal window.
 or [ZIP](socket-wrench-sizes.zip)): Metric tools are normally for metric
 fasteners and SAE tools for SAE fasteners. Some metric sizes (millimeter, mm)
 are almost the same as SAE sizes (fractional, imperial, inch, standard). You
-may also try a [program](metric-sae-sizes-java.zip) that did the numbers for
-this chart.
+may also try a [program](metric-sae-sizes-java.zip) that did numbers for this
+chart.
 
 ### Icons
 
