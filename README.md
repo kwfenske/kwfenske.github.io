@@ -90,7 +90,7 @@ important in many languages. Features are limited to make the application
 faster and simpler to use. A single click adds a character to the sample text,
 and the sample text is automatically copied to the system clipboard on each
 click. The most recent [data file](character-map-data.zip) is for Unicode
-16.0.0 (September 2024).
+17.0.0 (September 2025).
 
 - [Compare Folders](compare-folders-java.zip) (Java, ZIP, 322 KB):
 CompareFolders is a Java 1.4 application to compare two folders to determine if
@@ -331,7 +331,7 @@ other than HTML anchor text and their file names.
 
 Most search engines scan known web pages about once a month, and new links
 found there will appear in search results after two or three months. This page
-was last revised on Monday, 17 February 2025. Frequently asked questions
+was last revised on Wednesday, 17 September 2025. Frequently asked questions
 ([FAQ](https://kwfenske.github.io/faq.html)). Copyright &copy; 2011-2025 by
 Keith Fenske. All rights reserved. Anything you post on the internet will get
 stolen and used for something that you don't approve of.
