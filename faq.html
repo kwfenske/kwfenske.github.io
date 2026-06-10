@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="shortcut icon" href="favicon.ico">
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+ <meta name="author" content="Keith Fenske">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+  * { font-family: Verdana, sans-serif; }
+  h2 { font-size: 140%; text-align: center; margin-top: 2.0em; }
+  h3 { border-bottom: 1px solid gray; font-size: 120%; margin-top: 2.0em; padding-bottom: 0.2em; }
+ </style>
+ <title>Frequently Asked Questions (FAQ)</title>
+</head>
+<body style="background-color: #E0E8F0; margin: 1.0em;">
+<h2>Frequently Asked Questions (FAQ)</h2>
+by: Keith Fenske
+<br>for: <a href="https://kwfenske.github.io/">https://kwfenske.github.io/</a>
+<br>August 2021
+<p>Copyright &copy; 2021-2022 by Keith Fenske. All rights reserved.
+<p>These programs were written for my own use, cleaned up, documented, and
+released to the public (GPL). They won't solve the big problems in your life,
+but may help with smaller ones. I am often asked the same questions:
+<ul><li>Why Java 1.4 and the GNU General Public License (GPL)?
+<p>This was a reasonable choice in 2004 for applets and complete applications
+with no dependencies. I should have switched to Java 5.0 when it was stable,
+and maybe the Apache License with fewer restrictions. I do find
+"<a href="https://en.wikipedia.org/wiki/Generics_in_Java">generics</a>" in Java
+5.0 and later to be ugly. Many of my design choices were for consistency in
+projects over what became fifteen years. All of the programs run correctly in
+Java 8, the current public run-time environment as of late 2021.
+<p>The <a href="https://choosealicense.com/licenses/">license</a> is difficult
+to change. At least 200 files and 50 packages
+have <a href="https://opensource.guide/legal/">legal</a> notices. Each package
+would take a couple hours to rebuild (assuming no mistakes are made). There are
+numerous tedious details. The web page applets can only be fully tested on a
+clean copy of Windows XP or earlier. The BIOS date was 2008 for the last
+computer here that could run the original development tools: Java 1.4.2 SDK,
+Microsoft Word 2000, NetBeans 3.5.1 IDE, OpenOffice.org 1.1.5 (PDF generator),
+Paint Shop Pro 5.03, etc. Too much history, not enough time.
+<p>There is no perfect software license.
+The <a href="https://www.gnu.org/licenses/gpl.html">GNU GPL</a> is good for end
+users.
+The <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License</a> is
+better for bits and pieces that will be re-used. A dozen similar licenses
+disagree.
+<p>Permission is hereby granted to convert the web page applets to the Apache
+License (version 2.0 or later) or to GNU GPLv2 from the original GPLv3 or
+later. Applets are in the following five folders (repositories):
+<a href="https://github.com/kwfenske/dots-and-boxes-game-java">Dots and Boxes Game</a>,
+<a href="https://github.com/kwfenske/life-game-java">Life Game</a>,
+<a href="https://github.com/kwfenske/maze-fog-game-java">Maze Fog Game</a>,
+<a href="https://github.com/kwfenske/reversi-game-java">Reversi Game</a>,
+<a href="https://github.com/kwfenske/tic-tac-toe-game-java">Tic-Tac-Toe Game</a>.
+It is impossible to change the license without also changing the binary class
+files, which can't be properly tested anymore. All others have been converted
+to a dual license of Apache plus GPL. Yes, it really did take as long as
+estimated above.
+</li><li>Should these programs have more features?
+<p>Having twice the features would require ten times the effort. Open-source
+software does not need to provide all solutions for all people. You leave hooks
+for expansion, and let other people make the changes.
+</li><li>Why Microsoft Word 97-2003 format for the documentation (*.DOC)?
+<p>The DOCX format didn't exist until 2007 and wasn't common for several more
+years. The ODT or "Open Document" format also took a while to get accepted.
+Documentation appears as plain text in the program source code, as a Microsoft
+Word DOC file, and in Adobe Acrobat PDF format. The code comments will be
+readable long after DOC and PDF files have become obsolete. Whether or not the
+code itself will run is another question!
+</li><li>Why GIF files for sample program images instead of PNG files?
+<p>Again, because that's the way it was. GIF files were lossless, but limited
+to 256 colors. JPEG files always have some compression. PNG files are now
+better for screen images.
+</li><li>Can you make the HTML index page any more plain?
+<p>This is an index page on a web site for downloads of open-source software.
+The page is fast, clean, and direct -- and works on almost all web browsers at
+most font sizes. It even works with style sheets (CSS) turned off, which is
+important for accessibility, and doesn't use JavaScript, which many people
+disable as a security precaution. The more sophisticated a web page is, the
+more easily it breaks.
+</li><li>How many people visit your web site?
+<p>I don't know. This is not social media where you rank yourself by the number
+of followers. What is important is that people can download and use the
+programs. When pushed for a number, I proudly report an average of zero point
+zero visitors per day.
+</li><li>Why two spaces between sentences?
+<p>Old habits die hard. Another choice that stands out in hindsight.
+</li></ul>
+<h3 id="extended">GitHub Extended FAQ</h3>
+<ol><li>Java Programming Language
+<p>All computer programs are written in some programming language. Which one
+depends upon what is available for the target machine. Java ran on multiple
+operating systems (IBM, Linux, Macintosh, Solaris, Windows) and had
+a <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">graphical
+user interface</a> (GUI). Other languages had their
+own <a href="https://en.wikipedia.org/wiki/API">application programming
+interface</a> (API), some with short lifetimes. A desktop API was often
+obsolete before ten years, a mobile API (cell phones and tablets) in maybe five
+years. Then you rewrote for a newer API or a newer version of the same API. Old
+Java programs had an unusually long lifetime of around twenty years. I wish I
+could say we knew this in 2005, but it was just a guess. There is something to
+be said for programs that have a single source file, no dependencies
+(additional libraries), and stick to API calls as documented.
+</li><li>Java Versions
+<p>Several companies had strong opinions about the future
+of <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> in
+the mid 2000s, chief among them IBM, Oracle, and Sun Microsystems (the
+originator). Java 1.4 Standard Edition seemed to be the only thing they could
+agree on. The situation was somewhat unsettled until a year or two after Oracle
+acquired Sun. Java 5.0 (2004) was good, Java 6 (2006) was not, and Java 7
+(2011) was good again. Meanwhile, Java 1.4 programs keep running through to
+Java 8 (2014) and later. Not bad for a language that has changed so much, I
+don't recognize code from some newer versions.
+</li><li>Packages and Installers
+<p>My Java applications have around ten files for the program and a few more
+for licenses and advice. The most common package is
+a <a href="https://en.wikipedia.org/wiki/ZIP_(file_format)">ZIP archive</a>:
+everybody everywhere does this format. Great for people who know how to run
+Java, but not for people who need an "installer" or setup program. Those,
+unfortunately, are specific to each operating system. Assume you need one
+installer for 32-bit Windows, another for 64-bit Windows, one for MacOS, at
+least one for Linux, etc. A self-installer for Windows adds about 2 MB of
+overhead. Say you have five distribution packages of 2 MB each for one ZIP file
+that was less than 300 KB. That's 30 times more storage space and now you're
+building a program five ways, plus the original ZIP. How many programs are on
+my web site? Oh, dear. This is free, open-source software. I'm not getting paid
+to do this, and any web host would be unhappy if I suddenly started using
+gigabytes of data.
+</li><li>Internationalization
+<p>A long word
+for <a href="https://en.wikipedia.org/wiki/Internationalization_and_localization">supporting
+many languages</a>. The more "international" you make a program, the dumber the
+error messages get. I like good error messages. I only speak one language well,
+so I can't personally translate program messages or documentation into another
+language. On-line services such
+as <a href="https://translate.google.com/">Google Translate</a> come close when
+dealing with straight-forward "declarative" sentences. Then you have to
+implement message loading by language, generic substitution of parameters, etc.
+To avoid too much work, you dumb down the messages -- exactly what I want to
+avoid. Again, this is something you do if you have an interest in only one or
+two programs.
+</li><li>Non-Program Licenses
+<p>There should be a better license for material that is not part of a program
+package. Apache and GPL aren't suitable for this FAQ, the index page, etc. Yes,
+I looked at other licenses. No, I'm not going to post negative reviews.
+Copyright with all rights reserved may be best here.
+</li></ol>
+<h3 id="formatting">Formatting and Style</h3>
+Books and college courses discuss the best ways of writing computer programs.
+Read and learn. You will develop your own style. Some of my choices were as
+follows:
+<ul><li>Most lines are less than 80 characters (columns): a little too long for
+straight text, too short for some code, and fits nicely on my monitor at a
+reasonable size.
+<p></li><li>Nested code is indented two spaces for each level. One space was
+not enough and three spaces are too much. Left and right curly brackets line up
+in the same column, unless the entire section is linear.
+<p></li><li>End-of-line or "//" comments start at column 35 or later (after at
+least one space). Bonus points if you know where that comes from. Hint: 10, 16,
+35, and IBM System/370.
+<p></li><li>White space is helpful, in moderation.
+<p></li><li>Good comments will save you later when you have to revise your own
+code. Write what you need to know about what you're doing and why.
+</li></ul>
+<p>A clean and consistent programming style is necessary for open-source
+software. Bad code can be embarrassing for years to come. Bad documentation
+makes even good code look like garbage. Proper grammar, spelling, and
+punctuation are important: you can't communicate if people don't understand
+you.
+<ul><li>The text font, size, line width, and vertical spacing have the most
+effect on the readability of documents. Try variations of each.
+<p></li><li>My text is 12-point "Times New Roman" (TNR) with 10-point "Verdana"
+for code samples. Editing is easier because almost everyone has these fonts.
+Line spacing is 1.1 times normal height.
+<p></li><li>TNR is smaller than most fonts, which makes the default word
+spacing seem larger. There are two keyboard spaces between sentences. Some
+argue there should be one space. Neither is correct. In good typography,
+sentence spaces are different than word spaces: they are bigger, expand more,
+and compress less. Word processors pretend to be good. Using the same keyboard
+space for both sentences and words is a convenience that approximates
+correctness.
+<p></li><li>And for everything else, I remind myself with an old joke, that you
+only know half as much as you think you do.
+</li></ul>
+<h3 id="colophon">Colophon</h3>
+(Not a brand of cell phone.)
+This page was last revised on Thursday, 21 July 2022.
+Copyright &copy; 2021-2022 by Keith Fenske. All rights reserved.
+What I want to know is, why do we still address computer memory in bytes?
+</body>
+</html>
